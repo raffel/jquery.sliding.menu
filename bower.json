@@ -1,0 +1,28 @@
+{
+  "name": "jquery sliding menu",
+  "version": "0.0.1",
+  "description": "jquery sliding menu: handle swipe action(s) on touch screen",
+  "main": "js/jquery.sliding.menu.js",
+  "dependencies": {
+    "jquery": ">=1.7.0"
+  },
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "sliding",
+    "menu"
+  ],
+  "authors": [
+    "AndreaLombardo"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/aoopvn/jquery.sliding.menu.git",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+ ]
+}
