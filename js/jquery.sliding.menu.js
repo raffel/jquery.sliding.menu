@@ -43,11 +43,13 @@
             newCode += "</div>\n";
 
             this.html(newCode);
+            $('.toggler').click(function() {
+                togglePanel();
+            });
 
             if (autoClose) {
                 $(this).find(".toggler").trigger("click");
             }
-
         };
 
         $(document).on('click', '.sidebar .list-group-item', function () {
@@ -117,9 +119,6 @@
             doAnimation(container, containerWidth, side, status);
         }
 
-        $(document).on('click', '.toggler', function () {
-            togglePanel();
-        });
 
 
         $('html').on('swipeleft', function (e) {
